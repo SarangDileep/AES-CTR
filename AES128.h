@@ -2,7 +2,6 @@
 //  AES128.h
 //  AES
 //
-//  Created by Mihnea Stefan on 14.11.2020.
 //
 
 #ifndef AES128_h
