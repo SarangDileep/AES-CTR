@@ -9,6 +9,7 @@
 #define LookUpTables_h
 
 #include <stdio.h>
+#include <stdint.h>
 
 extern uint8_t sBox[];
 extern uint8_t inv_sBox[];

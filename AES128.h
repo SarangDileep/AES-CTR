@@ -15,6 +15,7 @@
 #include <sys/stat.h>
 #include <unistd.h>
 #include <sys/mount.h>
+#include <stdint.h>
 #include "LookUpTables.h"
 
 #define BLOCK_SIZE 16 // 128 bit blocks

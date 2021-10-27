@@ -9,6 +9,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdint.h>
 #include "CSHA512.h"
 
 uint8_t* PRNG(char* seed);
