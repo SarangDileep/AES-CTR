@@ -2,7 +2,6 @@
 //  CHSA512.c
 //  AES
 //
-//  Created by Mihnea Stefan on 15.11.2020.
 //
 
 #include "CSHA512.h"
