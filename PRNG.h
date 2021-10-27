@@ -2,7 +2,6 @@
 //  PRNG.h
 //  AES
 //
-//  Created by Mihnea Stefan on 16.11.2020.
 //
 
 #ifndef PRNG_h
