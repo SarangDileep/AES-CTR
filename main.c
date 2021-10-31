@@ -105,7 +105,6 @@ long getFileSize(char *fileName) {
 int main() {
   uint8_t padding = 0;
   uint8_t *buffer;
-  int functionality;
   FILE *fileReader;
   FILE *keyReader;
   uint8_t key[BLOCK_SIZE];
@@ -113,12 +112,6 @@ int main() {
   char filePath[30];
   char keyPath[30];
   long fileSize;
-
-  printf("\nSelect functionality\n1 - Encryption\n2 - Decryption\n");
-  scanf("%d", &functionality);
-
-  if (functionality != 1 && functionality != 2)
-    return -1;
 
   if (!(fileReader = searchForFilePlus(filePath, "plaintext")) ||
       !(keyReader = searchForFilePlus(keyPath, "key "))) {
